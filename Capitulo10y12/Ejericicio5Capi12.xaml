@@ -1,0 +1,15 @@
+﻿<Window x:Class="Capitulo10y12.Ejericicio5Capi12"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capitulo10y12"
+        mc:Ignorable="d"
+        Title="Ejericicio5Capi12" Height="127" Width="376">
+    <Grid>
+        <StackPanel>
+            <Label Content="Las excepciones que pueden ocurrir en WriteLine son:"/>
+            <Label Content="-  System.FormatException"/>
+        </StackPanel>
+    </Grid>
+</Window>

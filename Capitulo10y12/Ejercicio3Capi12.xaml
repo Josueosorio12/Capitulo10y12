@@ -1,0 +1,17 @@
+﻿<Window x:Class="Capitulo10y12.Ejercicio3Capi12"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capitulo10y12"
+        mc:Ignorable="d"
+        Title="Ejercicio3" Height="215" Width="514">
+    <Grid>
+        <StackPanel>
+            <Label Content="- Las excepciones que pueden presentarse con los Arreglos son:"/>
+            <Label Content="- System.IndexOutOfRangeException : El indice esta fuera del rango de los limites"/>
+            <Label Content="- System.NullReferenceException : Esta referenciando a NULL"/>
+            <Label Content="- ArrayTypeMismatchException : Asignación a un array de elemento que no es Compatible."/>
+        </StackPanel>
+    </Grid>
+</Window>
